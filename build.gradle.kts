@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+group = "com.nukive.renderprotocol"
+version = "0.0.1-SNAPSHOT"
+
 android {
     namespace = "com.nukive.renderprotocol"
     compileSdk = 35
