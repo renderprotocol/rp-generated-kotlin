@@ -35,3 +35,6 @@ gradle-app.setting
 
 # Wrapper is NOT ignored
 !gradle/wrapper/gradle-wrapper.jar
+
+# Ignore local configuration files
+local.properties
