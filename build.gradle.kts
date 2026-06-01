@@ -26,12 +26,12 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     
     // Protobuf and gRPC dependencies required for the generated code
-    implementation(libs.protobuf.java)
-    implementation(libs.protobuf.kotlin)
-    implementation(libs.grpc.stub)
-    implementation(libs.grpc.protobuf)
-    implementation(libs.grpc.kotlin.stub)
-    implementation(libs.javax.annotation.api)
+    api(libs.protobuf.java)
+    api(libs.protobuf.kotlin)
+    api(libs.grpc.stub)
+    api(libs.grpc.protobuf)
+    api(libs.grpc.kotlin.stub)
+    api(libs.javax.annotation.api)
     
     testImplementation(libs.junit)
 }
